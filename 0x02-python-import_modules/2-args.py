@@ -5,7 +5,7 @@ if __name__ == "__main__":
     argument = sys.argv
 
     if length <= 1:
-        str = "argument"
+        str = "arguments"
         print("{} {}.".format(length - 1, str))
     elif length == 2:
         str = "argument"
