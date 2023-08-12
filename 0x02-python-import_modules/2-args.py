@@ -12,7 +12,7 @@ if __name__ == "__main__":
         print("{} {}.".format(length - 1, str))
     elif length > 1:
         str = "arguments"
-        print("{} {} : \n".format(length - 1, str))
+        print("{} {}:".format(length - 1, str))
 
     for z in range(1, length):
         print("{}: {}".format(z, sys.argv[z]))
