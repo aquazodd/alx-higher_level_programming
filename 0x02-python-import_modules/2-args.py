@@ -9,13 +9,11 @@ if __name__ == "__main__":
         print("{} {}.".format(length - 1, str))
     elif length > 1:
         str = "argument"
-        print("{} {}.".format(length, str))
+        print("{} {}.".format(length - 1, str))
     elif length > 1:
         str = "arguments"
-        print("{} {} : \n".format(length, str))
+        print("{} {} : \n".format(length - 1, str))
 
     for z in range(1, length):
-        if z <= 1:
-            print("oops")
         print(sys.argv[z])
         print(z)
