@@ -2,7 +2,6 @@
 if __name__ == "__main__":
     import sys
     length = len(sys.argv)
-    argument = sys.argv
 
     if length <= 1:
         str = "arguments"
