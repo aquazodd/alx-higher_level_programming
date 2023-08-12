@@ -4,10 +4,10 @@ if __name__ == "__main__":
     length = len(sys.argv)
     argument = sys.argv
 
-    if length == 1:
+    if length <= 1:
         str = "argument"
         print("{} {}.".format(length - 1, str))
-    elif length > 1:
+    elif length == 1:
         str = "argument"
         print("{} {}.".format(length - 1, str))
     elif length > 1:
