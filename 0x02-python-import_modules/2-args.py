@@ -7,10 +7,10 @@ if __name__ == "__main__":
     if length <= 1:
         str = "argument"
         print("{} {}.".format(length - 1, str))
-    elif length == 1:
+    elif length == 2:
         str = "argument"
         print("{} {}.".format(length - 1, str))
-    elif length > 1:
+    elif length > 2:
         str = "arguments"
         print("{} {}:".format(length - 1, str))
 
