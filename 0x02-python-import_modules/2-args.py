@@ -15,5 +15,4 @@ if __name__ == "__main__":
         print("{} {} : \n".format(length - 1, str))
 
     for z in range(1, length):
-        print(sys.argv[z])
-        print(z)
+        print("{}: {}".format(z, sys.argv[z]))
