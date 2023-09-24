@@ -5,9 +5,9 @@ if __name__ == "__main__":
 
     if length <= 1:
         str = "arguments"
-        print("{} {}.".format(length - 1, str))
+        print("{} {}:".format(length - 1, str))
     elif length == 2:
-        str = "argument:"
+        str = "argument"
         print("{} {}.".format(length - 1, str))
     elif length > 2:
         str = "arguments"
